@@ -1,0 +1,312 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+a{text-decoration: none;}
+ul{list-style: none;}
+#top{
+    width: 1920px;
+    height: 101px;
+    background: #ffffff;
+}
+#top .top1{
+    width: 1583px;
+    height: 101px;
+    /*background: #adfffa;*/
+}
+#top .top1 .logo{
+    margin-top: 10px;
+    width: 350px;
+    float: left;
+}
+#top .top1 .nav{
+    width: 1005px;
+    /*background: salmon;*/
+    float: right;
+}
+/*#top .top1 .nav ul{
+    margin-top: 34px;
+}*/
+#top .top1 .nav ul li{
+    width: 167px;
+    height: 101px;
+    line-height: 102px;
+    float: left;
+    text-align: center;
+}
+#top .top1 .nav ul li:hover{
+    background: #d2d4ae;
+}
+#top .top1 .nav ul li a{
+    font-size: 25px;
+    color: #00b4ff;
+}
+#top .top1 .nav ul li a:hover{
+    color: #adfffa;
+}/*以上导航加logo*/
+#banner{
+    width: 1920px;
+    height: 801px;
+    background: #adfffa;
+}
+#main{
+    width: 1920px;
+    height: 3705px;
+    background: #3d7a76;
+}
+#main .main1{
+    width: 1920px;
+    height: 3017px;
+    background: #ffffff;
+}
+#main .main1 .main2{
+    width: 1583px;
+    height: 894px;
+    /*background: #adfffa;*/
+}
+#main .main1 .main2 p{
+    font-size: 43px;
+    text-align: center;
+    padding-top: 95px;
+    width: 202px;
+    height: 69px;
+    /*background: salmon;*/
+    border-bottom:4px solid #aaaaaa ;
+}
+#main .main1 .main2 .main2-1{
+    margin-top: 67px;
+    width: 1583px;
+    height: 507px;
+    /*background: red;*/
+}
+#main .main1 .main2 .main2-1 img{
+    float: left;
+    width: 760px;
+}
+#main .main1 .main2 .main2-1 ul{
+    width: 821px;
+    height: 507px;
+    float: right;
+}
+#main .main1 .main2 .main2-1 ul li{
+    line-height: 50px;
+    font-size: 29px;
+}
+#main .main1 .main1-1{
+    width: 1920px;
+    background: #e6e6e6;
+}
+#main .main1 .main3{
+    width: 1583px;
+    height: 919px;
+    background: #e6e6e6;
+}
+#main .main1 .main3 p{
+    font-size: 43px;
+    text-align: center;
+    padding-top: 95px;
+    width: 202px;
+    height: 69px;
+    /*background: salmon;*/
+    border-bottom:4px solid #aaaaaa ;
+}
+#main .main1 .main3 .main3-1{
+    margin-top: 48px;
+    height: 273px;
+}
+.main3-1 .mmp{
+    width: 280px;
+    height: 280px;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: dashed;
+    float: left;
+    margin-left: 100PX;
+    transition: 3s;
+}
+.main3-1 .mmp:hover{
+    transition: 3s;
+    transform: rotate(360deg);
+    border:solid 2px #d63030;
+    border-radius: 50%;
+    border-style: dashed;
+}
+.mmp .mmp1{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 15px;
+    transition: 3s;
+}
+.mmp .mmp1:hover{
+    transition: 3s;
+    background: #d63030;
+}
+.mmp .mmp1 dl{
+    padding-top: 67px;
+    text-align: center;
+}
+.mmp .mmp1 dl dd{
+    margin-top: 15px;
+    font-size: 29px;
+}
+.main3-1 .zxc{
+    width: 280px;
+    height: 280px;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: dashed;
+    float: left;
+    margin-left: 100PX;
+}
+.zxc .zxc1{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.zxc .zxc1 img{
+    margin-left: 70px;
+    margin-top: 85px;
+}
+.zxz{
+    width: 280px;
+    height: 280px;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: dashed;
+    float: left;
+    margin-left: 100PX;
+}
+.zxz .zxz1{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.zxz .zxz1 img{
+    margin-left: 78px;
+    margin-top: 90px;
+}
+.zxx{
+    width: 280px;
+    height: 280px;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: dashed;
+    float: left;
+    margin-left: 100PX;
+}
+.zxx .zxx1{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.zxx .zxx1 img{
+    margin-left: 78px;
+    margin-top: 90px;
+}
+#main .main1 .main4{
+    width: 1583px;
+    height: 1206px;
+    /*background: #adfffa;*/
+}
+#main .main1 .main4 p{
+    font-size: 43px;
+    text-align: center;
+    padding-top: 95px;
+    width: 202px;
+    height: 69px;
+    /*background: salmon;*/
+    border-bottom:4px solid #aaaaaa ;
+}
+#main .main1 .main4 .main4-1{
+    margin-top: 97px;
+    width: 1371px;
+    height: 866px;
+    background: saddlebrown;
+}
+#main .main1 .main4 .main4-1 .main4-2{
+    height: 409px;
+}
+#main .main1 .main4 .main4-1 .main4-2 ul li{
+    width: 660px;
+    height: 409px;
+}
+#main .main5{
+    width: 1920px;
+    height: 689px;
+    background: #d2d4ae;
+}
+#footer{
+    width: 1920px;
+    height: 396px;
+    background: #1d1b1c;
+}
+#footer .footer1{
+    padding-top: 66px;
+    width: 652px;
+    /*height: 396px;*/
+    margin-left: 167px;
+    float: left;
+}
+#footer .footer1 dl{
+    margin-left: 140px;
+    text-align: left;
+    float: left;
+}
+#footer .footer1 dl dt{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+#footer .footer1 dl dd{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+#footer .footer2{
+    float: right;
+    margin-right: 240px;
+    width: 684px;
+    margin-top: 66px;
+}
+#footer .footer2 .footer3{
+    width: 684px;
+    height: 220px;
+}
+#footer .footer2 .footer3 dl{
+    float: left;
+    margin-left: 90px;
+    text-align: center;
+}
+#footer .footer2 .footer3 dl dd{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 44px;
+}
+#footer .footer2 .music{
+    margin-top: 5px;
+    float: left;
+    width: 684px;
+    height: 50px;
+    /*background: salmon;*/
+}
+#footer .footer2 audio{
+    width: 100px;
+    height: 50px;
+}
+#footer .footer2 audio:hover{
+    width: 684px;
+    height: 50px;
+    transition: 4s;
+}
